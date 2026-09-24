@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production build output
+dist/
+frontend/dist/
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+
+# Local SQLite databases & env files
+*.db
+*.sqlite
+backend/*.db
+.env
+backend/.env
+
+# Virtual environments
+venv/
+env/
+backend/venv/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
